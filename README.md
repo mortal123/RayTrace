@@ -13,9 +13,9 @@
 
 ###Example.
 * 没有透射模型的sample
-![](/Users/liwenhao/Project/RayTrace/sample2.bmp)
+![](sample2.bmp)
 * 加上了透射模型的sample
-![](/Users/liwenhao/Project/RayTrace/sample.bmp)
+![](sample.bmp)
 
 
 

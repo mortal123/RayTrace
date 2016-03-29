@@ -1,0 +1,98 @@
+Material
+	ambient 0.2 0.4 0.6
+	diffuse 0.02 0.06 0.01
+	specular 0.05 0.06 0.05
+	refract 0.4 0.5 0.6
+	n .1
+	reflection .05
+	refraction 0.6
+	eta 1.5
+Material
+	ambient 0.5 0.5 0.5
+	diffuse 0.8 0.2 0.2
+	specular 0.8 0.8 0.8
+	refract 0 0 0
+	n 1
+	reflection .1
+	refraction 0
+	eta 1
+Material
+	ambient 0.5 0.5 0.5
+	diffuse 0.1 0.6 0.9
+	specular 0.6 0.3 0.5
+	refract 0.6 0.5 0.4
+	n 2
+	reflection 0
+	refraction 0.5
+	eta 1
+Material
+	ambient 0.2 0.6 0.2
+	diffuse 1. 1. 1.
+	specular 0 0 0
+	refract 0.6 0.5 0.4
+	n 1
+	reflection .8
+	refraction 0.3
+	eta 1
+Material
+	ambient .2 .6 .8
+	diffuse .2 .6 .8
+	specular 0 0 0
+	refract 0 0 0
+	n 1
+	reflection 0
+	refraction 0
+	eta 1
+Sphere
+	center 0 0 0
+	radius 10
+	material 0
+Sphere
+	center 0 -15 0
+	radius 4
+	material 1
+Sphere
+	center -20 0 0
+	radius 5
+	material 2
+Sphere
+	center 20 0 0
+	radius 5
+	material 2
+Rectangle
+	start 0 -1000 -12
+	d1 2000 2000 -12
+	d2 -2000 2000 -12
+	material 4
+Rectangle
+	start -25 -40 0
+	d1 35 0 35
+	d2 35 0 -35
+	material 3
+Light
+	Ambient 0.1 0.1 0.1
+	PlaneLight
+		start -10 -10 200
+		d1 5 0 0
+		d2 0 5 0
+		intensity 8 8 8
+	PlaneLight
+		start 200 200 200
+		d1 5 0 0
+		d2 0 5 0
+		intensity 8 8 8
+	PlaneLight
+		start 200 -200 200
+		d1 5 0 0
+		d2 0 5 0
+		intensity 8 8 8
+	PlaneLight
+		start -200 200 200
+		d1 5 0 0
+		d2 0 5 0
+		intensity 8 8 8
+	PlaneLight
+		start -200 -200 200
+		d1 5 0 0
+		d2 0 5 0
+		intensity 8 8 8
